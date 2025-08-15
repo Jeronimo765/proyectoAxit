@@ -172,47 +172,49 @@ button {
 
 .contenedor-cajas {
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start;
     gap: 20px;
     background-color: #F5F5F5;
     padding: 80px 100px;
-   
+
 }
 
-.cajas2  .tab1{
+
+.cajas2 .tab1 {
     width: 60px;
     padding: 50px;
     background-color: #FF8B38;
     gap: 2px;
-    margin-left: 320px;
+     margin-left: 220px;
     margin-top: 40px;
     border-bottom: 2px solid white;
-   
-    
 }
-.tab1 p{
+
+.tab1 p {
     color: #FFFFFF;
 }
 
 
-.cajas2  .tab2{
+.cajas2 .tab2 {
     width: 60px;
     padding: 50px;
     background-color: #333333;
     gap: 2px;
-    margin-left: 320px;
+    margin-left: 220px;
     border-bottom: 2px solid white;
-    
+
 }
-.tab2 p{
+
+.tab2 p {
     color: #FFFFFF;
 }
-.cajas2 .tab3{
+
+.cajas2 .tab3 {
     width: 60px;
     padding: 50px;
     background-color: #333333;
-    margin-left: 320px;
-   
+    margin-left: 220px;
+
 }
 
 .tab3 p {
@@ -220,7 +222,7 @@ button {
 }
 
 .titulo-tabs {
-    margin-left: 150px; 
+    margin-left: 150px;
     width: 600px;
     line-height: 1.8;
     margin-bottom: 10px;
