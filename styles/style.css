@@ -24,19 +24,21 @@ nav {
 }
 
 .encabezado {
-    background-image: url(../assets/images/headerBg.png);
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+        url(../assets/images/headerBg.png);
     background-size: cover;
-    height: 90vh;
+    height: 70vh;
     color: white;
     padding: 40px 190px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 40px 190px;
+    align-items: center;
+}
 
+.logo img {
+    max-width: 110px;
+    height: auto;
 }
 
 .titulo {
@@ -47,4 +49,115 @@ nav {
 
 .img-axit {
     padding: 80px 140px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.titulo h1 {
+    font-size: 20px;
+}
+
+.titulo p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.titulo button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.linea {
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+form {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 350px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin-right: 190px;
+
+}
+
+form p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #F5F5F5;
+    color: #000000;
+
+}
+
+
+form p span {
+    color: orange;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+button {
+    background-color: #FF9B51;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.contendor-marcas {
+    padding: 50px 320px;
+    margin-top: -30px;
+
+}
+
+.text-p p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 600px;
+    color: #86878B;
+}
+
+.marcas {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 20px 40px;
+
 }
