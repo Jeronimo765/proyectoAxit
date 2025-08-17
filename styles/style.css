@@ -238,3 +238,70 @@ button {
     margin-top: 80px;
     width: 100px;
 }
+
+.contendor-sub {
+    display: flex;
+    align-items: flex-start; 
+    padding: 80px 180px;
+    
+}
+
+.contenedor-list {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 80px;
+
+}
+
+.img img {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.linea2 {
+    width: 80px;
+    height: 2px;
+    background-color: #FFB37C;
+}
+
+.parrafo-sub {
+    line-height: 1.6;
+}
+
+.img-title {
+  display: flex;
+  align-items: flex-start; 
+ 
+  margin-bottom: 20px;
+}
+
+.img-title img {
+  width: 32px;  
+  height: auto;
+}
+.text-gris {
+    color: #86878B;
+}
+.img-title .texto {
+  display: flex;
+  flex-direction: column; 
+  gap: 6px;
+}
+
+.img-title h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.img-title p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.img img {
+    width: 600px;
+ 
+}
+
