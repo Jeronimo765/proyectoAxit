@@ -412,6 +412,12 @@ button {
 
 }
 
+.tarjetas {
+    padding: 70px 130px;
+    background-color: #F5F5F5;
+
+}
+
 .titulo-pricing {
     color: #272727;
     text-align: center;
@@ -448,19 +454,19 @@ button {
 .tarjeta1 {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     border: 1px solid #ddd;
     border-radius: 6px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     background: white;
     text-align: center;
-    
+
 }
 
 .tarjeta2 {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     border: 1px solid #ddd;
     border-radius: 6px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -472,7 +478,7 @@ button {
 .tarjeta3 {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     border: 1px solid #ddd;
     border-radius: 6px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -480,22 +486,50 @@ button {
     text-align: center;
 }
 
+
 .tarjetas-juntas {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-top: 200px;
+    margin-top: 100px;
     align-items: center;
-    margin-right: 400px;
+    margin-right: 200px;
+    margin-left: 300px;
 }
 
 .precio {
     background: #333;
     color: white;
     padding: 20px;
+}
+
+.basic {
     border-bottom: 2px solid white;
-    
-    
+    padding: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.profesional {
+    border-bottom: 2px solid white;
+    padding: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.enterprise {
+    border-bottom: 2px solid white;
+    padding: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.linea-naranja1 {
+     border-bottom: 6px solid #FF8C38;
+}
+
+.linea-naranja2 {
+    border-bottom: 6px solid #FF8C38;
 }
 
 .valor {
@@ -526,7 +560,7 @@ button {
 .contenido p {
     margin: 0;
     padding: 12px;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #F5F5F5;
     font-size: 14px;
     color: #555;
 }
