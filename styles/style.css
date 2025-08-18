@@ -290,7 +290,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    
+
 }
 
 .img-title h3 {
@@ -339,67 +339,194 @@ button {
     width: 600px;
 }
 
-.parrafito-gris{
+.parrafito-gris {
     color: #86878B;
 }
 
 
 .texto-centrado {
-  text-align: center;
-  margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .texto-centrado .h2 h2 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .linea4 {
-  width: 60px;
-  height: 3px;
-  background-color: #FF6600;
-  margin: 0 auto 15px; 
+    width: 60px;
+    height: 3px;
+    background-color: #FFB37C;
+    margin: 0 auto 15px;
 }
 
 
 .contenedor-iconos {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
+.texto-gris4 {
+    color: #777;
+}
 
 .iconos {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
 }
 
 
 .icono {
-  flex: 1;
-  padding: 20px;
+    padding: 20px;
 }
 
 .icono img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
-  border: 2px solid #FF6600;
-  border-radius: 50%;
-  padding: 15px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #FFB37C;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 .icono h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .icono p {
-  font-size: 14px;
-  color: #777;
-  line-height: 1.6;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.tarjetas {
+    padding: 70px 130px;
+    background-color: #F5F5F5;
+
+}
+
+.titulo-pricing {
+    color: #272727;
+    text-align: center;
+
+}
+
+.titulo-pricing h2 {
+    font-size: 30px;
+}
+
+.texto-pricingGris {
+    color: #777;
+}
+
+.linea5 {
+    width: 60px;
+    height: 3px;
+    background-color: #FFB37C;
+    margin: 0 auto 15px;
+}
+
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+
+.tarjeta1 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    
+}
+
+.tarjeta2 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+
+}
+
+.tarjeta3 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+}
+
+.tarjetas-juntas {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 200px;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.precio {
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    
+    
+}
+
+.valor {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.subtexto {
+    font-size: 14px;
+    color: #ddd;
+}
+
+
+.popular-tag {
+    background: #FF8B38;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido p {
+    margin: 0;
+    padding: 12px;
+    border-top: 2px solid #ddd;
+    font-size: 14px;
+    color: #555;
 }
