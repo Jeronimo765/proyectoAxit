@@ -765,6 +765,7 @@ button {
     font-size: 16px;
 
 }
+
 .formulario2 {
     display: flex;
     gap: 40px;
@@ -772,9 +773,10 @@ button {
 }
 
 .formulario2 input {
-    
+
     width: 500px;
 }
+
 .contenedor-contact {
     padding: 70px 150px;
 
@@ -799,58 +801,60 @@ button {
     width: 80%;
     max-width: 900px;
     margin: 50px auto;
-  
+
 }
+
 .form-container {
-  
-  flex-direction: column; 
-  gap: 100px;              
-  width: 400px;          
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+
+    flex-direction: column;
+    gap: 100px;
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-  
-  flex-direction: column;
-  margin-top: 20px;
+
+    flex-direction: column;
+    margin-top: 20px;
 }
 
-input, textarea {
-  border: none;
-  border-bottom: 1px solid #ccc;
-  outline: none;
-  padding: 8px 0;
-  font-size: 14px;
-  width: 200px;  
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 8px 0;
+    font-size: 14px;
+    width: 200px;
 
 }
 
 textarea {
-  resize: none;
-  height: 100px;
+    resize: none;
+    height: 100px;
 }
 
 button {
-  padding: 12px;
-  border: none;
-  background-color: #ff944d;
-  color: white;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+    padding: 12px;
+    border: none;
+    background-color: #ff944d;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
-  background-color: #e67a33;
+    background-color: #e67a33;
 }
 
 .solo-tres {
     width: 50%;
-    
+
 }
 
 .boton-contact {
@@ -866,4 +870,183 @@ button:hover {
 .copyright {
     color: #CCCCCC;
     text-align: center;
+}
+
+@media (max-width: 1279px) {
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+        /* no se toca para el texto */
+        padding: 40px 80px;
+        gap: 30px;
+        height: auto;
+    }
+
+    .logo img {
+        margin-right: 80px;
+    }
+
+    .titulo {
+        padding: 0;
+        max-width: 100%;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .linea {
+        margin-right: 700px;
+    }
+
+    .titulo p {
+        width: 400px;
+        margin-right: 390px;
+        font-size: 15px;
+    }
+
+    .titulo button {
+        margin-right: 670px;
+    }
+
+    .titulo-principal {
+        margin-right: 500px;
+        max-width: 300px;
+        font-size: 20px;
+    }
+
+    .img-axit {
+        padding: 0;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: flex-end;
+        /* lo lleva a la derecha */
+        align-items: flex-start;
+        /* lo sube arriba */
+        width: 100%;
+        margin: 0;
+        /* eliminar margen que empuja */
+        margin-top: -30px;
+        /* sube el formulario un poco más */
+    }
+
+    form {
+        width: 100%;
+        max-width: 250px;
+        margin-left: 700px;
+        margin-top: -350px;
+
+    }
+
+    .contendor-marcas {
+        padding: 20px 40px;
+    }
+
+    .contendor-marcas {
+        margin-left: 30px;
+    }
+
+    .text-p {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-right: 210px;
+        width: 300px;
+    }
+
+    .marcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        margin-top: -80px;
+        flex-wrap: nowrap;
+        margin-left: 800px;
+    }
+    .contenedor-cajas {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .cajas2 .tab1,
+    .cajas2 .tab2,
+    .cajas2 .tab3 {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .titulo-tabs {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-edificios img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contendor-sub {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .contenedor-list {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .img-standard img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contendor-standard {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .contenedor-iconos .iconos {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .tarjetas-juntas {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 30px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .personas {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .personas div {
+        margin-right: 0;
+    }
+
+    .contenedor-calle {
+        padding: 40px 20px;
+    }
+
+    .contenedor-contact {
+        padding: 40px 20px;
+    }
+
+    .formulario2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formulario2 input {
+        width: 100%;
+    }
 }
